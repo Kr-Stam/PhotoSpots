@@ -1,23 +1,27 @@
 package com.example.backend.repository;
 
+import com.example.backend.bootstrap.DataHolder;
 import com.example.backend.model.Comment;
 import com.example.backend.model.PhotoSpot;
 import com.example.backend.model.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
+@Repository
 public class AppRepository {
 
     //Sega za sega samo za ova, ostanatite mozebi ponatamu
-    public PhotoSpot getAllPhotoSpots(double latitude, double longitude){
+    public List<PhotoSpot> getAllPhotoSpots(double latitude, double longitude){
         //TODO IMPLEMENT
-        //return all
-        return null;
+        //return all OK
+        return DataHolder.spots;
     }
     //Ova se koristi, nema potreba za site useri
-    public User getUserById(String id){
+    public Optional<User> getUserById(String id){
         //TODO IMPLEMENT
-        return null;
+        return DataHolder.users.stream().filter(r ->r.getId().equals(id)).findFirst();
     }
 
     public PhotoSpot getPhotoSpotsInArea(double latitude, double longitude){
@@ -53,6 +57,8 @@ public class AppRepository {
     public void addPhotoSpot(PhotoSpot spot, User user){
         //TODO IMPLEMENT
         //add to db
+        DataHolder.spots.add(spot);
+        DataHolder.users.add(user);
     }
     //Ova stavi go
     public void addComment(Comment comment, PhotoSpot photoSpot, User user){
