@@ -15,7 +15,7 @@ public class PhotoSpot {
     private int downvotes;
     private int upvotes;
 
-    private List<String> comments;
+//    private List<String> comments;
 
     public PhotoSpot(String id, String name, String image, double longitude, double latitude, int downvotes, int upvotes) {
         this.id = id;
