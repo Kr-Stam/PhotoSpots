@@ -1,0 +1,5 @@
+This app works with user generated data according to the database schema which is located inside the diagram folder.
+Because of that we cannot use an existing database, but we still have some static test data we use to initialize and test the application.
+Later on when we fully implement the database, we will use the Pipe and Filter design pattern, we have already planned multiple filters.
+
+Please note that the database schema, and some parts of the SRS and diagrams may be revised, in order to better organize team member responsibilities.
