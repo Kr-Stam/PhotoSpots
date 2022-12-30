@@ -1,7 +1,7 @@
 package com.example.webapp.web;
 
-import com.example.backend.model.Location;
-import com.example.backend.service.LocationService;
+import com.example.webapp.model.*;
+import com.example.webapp.service.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

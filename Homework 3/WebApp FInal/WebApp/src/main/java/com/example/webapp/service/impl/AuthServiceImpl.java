@@ -1,10 +1,9 @@
 package com.example.webapp.service.impl;
 
-import com.example.backend.Exceptions.InvalidArgumentsException;
-import com.example.backend.Exceptions.InvalidUserCredentialsException;
-import com.example.backend.model.User;
-import com.example.backend.repository.jpa.UserRepository;
-import com.example.backend.service.AuthService;
+import com.example.webapp.exceptions.*;
+import com.example.webapp.model.*;
+import com.example.webapp.repository.jpa.*;
+import com.example.webapp.service.AuthService;
 import org.springframework.stereotype.Service;
 
 @Service

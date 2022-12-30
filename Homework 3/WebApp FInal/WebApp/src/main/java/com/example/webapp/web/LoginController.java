@@ -1,9 +1,8 @@
 package com.example.webapp.web;
 
-import com.example.backend.Exceptions.InvalidArgumentsException;
-import com.example.backend.Exceptions.InvalidUserCredentialsException;
-import com.example.backend.model.User;
-import com.example.backend.service.AuthService;
+import com.example.webapp.exceptions.*;
+import com.example.webapp.model.*;
+import com.example.webapp.service.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

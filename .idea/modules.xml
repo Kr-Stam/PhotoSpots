@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Backend/Backend.iml" filepath="$PROJECT_DIR$/Backend/Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework 3/WebApp FInal/WebApp/Backend.iml" filepath="$PROJECT_DIR$/Homework 3/WebApp FInal/WebApp/Backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PhotoSpotsApp.iml" filepath="$PROJECT_DIR$/.idea/PhotoSpotsApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebApp/WebApp.iml" filepath="$PROJECT_DIR$/WebApp/WebApp.iml" />
     </modules>

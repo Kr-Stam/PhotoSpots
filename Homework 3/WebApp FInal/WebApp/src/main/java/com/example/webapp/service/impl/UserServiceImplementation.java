@@ -1,11 +1,9 @@
 package com.example.webapp.service.impl;
 
-import com.example.backend.Exceptions.InvalidUsernameOrPasswordException;
-import com.example.backend.Exceptions.UsernameAlreadyExistsException;
-import com.example.backend.Exceptions.UsernameNotFoundException;
-import com.example.backend.model.User;
-import com.example.backend.repository.jpa.UserRepository;
-import com.example.backend.service.UserService;
+import com.example.webapp.exceptions.*;
+import com.example.webapp.model.*;
+import com.example.webapp.repository.jpa.*;
+import com.example.webapp.service.UserService;
 import org.springframework.stereotype.Service;
 
 @Service

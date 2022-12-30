@@ -1,7 +1,7 @@
 package com.example.webapp.bootstrap;
 
-import com.example.webapp.model.Location;
-import com.example.webapp.model.User;
+import com.example.webapp.model.*;
+import com.example.webapp.model.*;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 

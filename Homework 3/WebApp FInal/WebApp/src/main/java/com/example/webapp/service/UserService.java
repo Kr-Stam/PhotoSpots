@@ -1,9 +1,7 @@
 package com.example.webapp.service;
 
-import com.example.backend.Exceptions.InvalidUsernameOrPasswordException;
-import com.example.backend.Exceptions.UsernameAlreadyExistsException;
-import com.example.backend.Exceptions.UsernameNotFoundException;
-import com.example.backend.model.User;
+import com.example.webapp.exceptions.*;
+import com.example.webapp.model.*;
 
 public interface UserService {
 

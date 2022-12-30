@@ -1,6 +1,6 @@
 package com.example.webapp.model;
 
-import com.example.webapp.util.Utils;
+import com.example.webapp.util.*;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;

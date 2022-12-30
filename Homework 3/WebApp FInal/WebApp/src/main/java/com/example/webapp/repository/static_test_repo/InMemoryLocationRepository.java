@@ -1,7 +1,7 @@
 package com.example.webapp.repository.static_test_repo;
 
-import com.example.backend.bootstrap.DataHolder;
-import com.example.backend.model.Location;
+import com.example.webapp.bootstrap.*;
+import com.example.webapp.model.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
