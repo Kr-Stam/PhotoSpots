@@ -1,2 +1,1 @@
-Probavme da go hostirame preku docker ama ne prorabote.
-Azure pravi problemi, dava errori.
+Aplikacijata e dockerizirana, no poradi problemi so azure ne uspeavme da ja hostirame.
